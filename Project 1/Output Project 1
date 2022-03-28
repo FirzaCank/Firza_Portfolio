@@ -1,0 +1,288 @@
+# imdb_weighted_rating:
+          tconst  titleType              primaryTitle  \
+0     tt0043745      short                 Lion Down   
+1     tt0167491      video         Wicked Covergirls   
+2     tt6574096  tvEpisode      Shadow Play - Part 2   
+5     tt2262289      movie                   The Pin   
+6     tt0874027  tvEpisode             Episode #32.9   
+...         ...        ...                       ...   
+1369  tt8870226      video         Sublime: Santeria   
+1371  tt4027946      movie     Alone in the Universe   
+1372  tt1119633  tvSpecial          UFC 67 Countdown   
+1373  tt0290419      movie         Andru Kanda Mugam   
+1374  tt0522596  tvEpisode  The Clampetts Play Cupid   
+
+                 originalTitle  isAdult  startYear  endYear  runtimeMinutes  \
+0                    Lion Down        0     1951.0      NaN             7.0   
+1            Wicked Covergirls        1     1998.0      NaN            85.0   
+2         Shadow Play - Part 2        0     2017.0      NaN            22.0   
+5                      The Pin        0     2013.0      NaN            85.0   
+6                Episode #32.9        0     2006.0      NaN            29.0   
+...                        ...      ...        ...      ...             ...   
+1369         Sublime: Santeria        0     1996.0      NaN             4.0   
+1371     Alone in the Universe        0     2015.0      NaN            97.0   
+1372          UFC 67 Countdown        0     2007.0      NaN            60.0   
+1373         Andru Kanda Mugam        0     1968.0      NaN           164.0   
+1374  The Clampetts Play Cupid        0     1967.0      NaN            30.0   
+
+                              genres  averageRating  numVotes     score  
+0        [Animation, Comedy, Family]            7.1       459  7.009992  
+1                                 []            5.7         7  6.796077  
+2     [Adventure, Animation, Comedy]            8.5       240  7.684380  
+5                                 []            7.7        27  6.921384  
+6          [Comedy, Game-Show, News]            8.0         8  6.869089  
+...                              ...            ...       ...       ...  
+1369                  [Music, Short]            7.6        12  6.867943  
+1371        [Comedy, Drama, Romance]            4.1        22  6.590335  
+1372                              []            8.0        13  6.892455  
+1373                              []            6.4         5  6.820403  
+1374                [Comedy, Family]            7.5        38  6.924997  
+
+[1004 rows x 12 columns]
+
+----------------------------------------------------------------------------------------
+
+# user_prefer_recommender:
+          tconst  titleType                         primaryTitle  \
+68    tt4110822  tvEpisode                        S.O.S. Part 2   
+1181  tt7697962  tvEpisode  Chapter Seventeen: The Missionaries   
+326   tt7124590  tvEpisode  Chapter Thirty-Four: Judgment Night   
+71    tt8399426  tvEpisode                              Savages   
+1234  tt2843830  tvEpisode                                VIII.   
+1054  tt2503932  tvEpisode                      Trial and Error   
+1281  tt3166390  tvEpisode               Looking for a Plus-One   
+151   tt3954426  tvEpisode                      Bleeding Kansas   
+1344  tt6644294  tvEpisode       The Hostile Hospital: Part Two   
+357   tt4084774  tvEpisode                 Trial and Punishment   
+708   tt2751234  tvEpisode                         Resurrection   
+605   tt9141176  tvEpisode                59 horas desaparecido   
+983   tt5063116  tvEpisode                                Shell   
+1017  tt2206822  tvEpisode                      Vested Interest   
+73    tt0847785  tvEpisode                          Like It Was   
+625   tt7348490  tvEpisode                   Forced Perspective   
+1272  tt0534736  tvEpisode                 Sex, Lies and Larvae   
+800   tt0901201  tvEpisode                           Crossroads   
+659   tt3909890  tvEpisode                                Moppa   
+1170  tt0647504  tvEpisode                        Tainted Fruit   
+1001  tt2129485  tvEpisode                      A Desperate Man   
+977   tt4391820  tvEpisode                              Aisling   
+1096  tt6822518      movie                    Yasamak Güzel Sey   
+910   tt3348270  tvEpisode                            Bloodline   
+746   tt0534765  tvEpisode                      You've Got Male   
+299   tt4527626  tvEpisode                His Troubled Thoughts   
+509   tt1256301  tvEpisode                           Nine Lives   
+897   tt2349242  tvEpisode                        The Fifth Man   
+1090  tt0212815      movie                             Big Eden   
+109   tt1753383      movie                      A Dog's Purpose   
+550   tt8163822      short                The Neighbors' Window   
+834   tt6509862      movie                             Mr. Long   
+600   tt0329002      movie             Hard Goodbyes: My Father   
+642   tt0993186  tvEpisode                  Daleks in Manhattan   
+691   tt3663996  tvEpisode                          Storm Watch   
+727   tt3563898   tvSeries            Brynhildr in the Darkness   
+164   tt0464049      movie                     The History Boys   
+893   tt8858104      movie                         Guava Island   
+927   tt3663990  tvEpisode                                Pilot   
+462   tt5197828  tvEpisode                                Right   
+1068  tt8369852  tvEpisode              I Think We're Alone Now   
+940   tt0396190      movie                     Return to Sender   
+610   tt3526706      movie                            Chevalier   
+1126  tt2151739      movie                Meet Me in Montenegro   
+637   tt0857275      movie                      Wonderful World   
+385   tt0472259      movie                       Alone with Her   
+1014  tt1159705      movie                        Teenage Angst   
+1043  tt5518756      movie                      The Misandrists   
+1154  tt1386492      movie                  This Is Not a Movie   
+492   tt0882806      movie                           Sugar Boxx   
+922   tt2948790      movie                     Return to Sender   
+690   tt4477536      movie                   Fifty Shades Freed   
+677   tt8923408  tvEpisode                          #JinnHunter   
+1039  tt5227468      movie                        Beiimaan Love   
+1138  tt1126516      movie              Money Hai Toh Honey Hai   
+1208  tt3044882      movie                                Nasha   
+1197  tt3016748      movie                       Jacob's Ladder   
+846   tt0488164      movie                          Moscow Zero   
+90    tt0299981    tvMovie               Highlander: The Source   
+
+                             originalTitle  isAdult  startYear  endYear  \
+68                           S.O.S. Part 2        0     2015.0      NaN   
+1181   Chapter Seventeen: The Missionaries        0     2019.0      NaN   
+326    Chapter Thirty-Four: Judgment Night        0     2018.0      NaN   
+71                                 Savages        0     2018.0      NaN   
+1234                                 VIII.        0     2014.0      NaN   
+1054                       Trial and Error        0     2013.0      NaN   
+1281                Looking for a Plus-One        0     2014.0      NaN   
+151                        Bleeding Kansas        0     2014.0      NaN   
+1344        The Hostile Hospital: Part Two        0     2018.0      NaN   
+357                   Trial and Punishment        0     2015.0      NaN   
+708                           Resurrection        0     2014.0      NaN   
+605                  59 horas desaparecido        0     2019.0      NaN   
+983                                  Shell        0     2016.0      NaN   
+1017                       Vested Interest        0     2012.0      NaN   
+73                             Like It Was        0     2006.0      NaN   
+625                     Forced Perspective        0     2018.0      NaN   
+1272                  Sex, Lies and Larvae        0     2000.0      NaN   
+800                             Crossroads        0     2006.0      NaN   
+659                                  Moppa        0     2014.0      NaN   
+1170                         Tainted Fruit        0     2001.0      NaN   
+1001                       A Desperate Man        0     2012.0      NaN   
+977                                Aisling        0     2019.0      NaN   
+1096                     Yasamak Güzel Sey        0     2017.0      NaN   
+910                              Bloodline        0     2014.0      NaN   
+746                        You've Got Male        0     2001.0      NaN   
+299                  His Troubled Thoughts        0     2016.0      NaN   
+509                             Nine Lives        0     2008.0      NaN   
+897                          The Fifth Man        0     2012.0      NaN   
+1090                              Big Eden        0     2000.0      NaN   
+109                        A Dog's Purpose        0     2017.0      NaN   
+550                  The Neighbors' Window        0     2019.0      NaN   
+834                                Ryu san        0     2017.0      NaN   
+600   Dyskoloi apohairetismoi: O babas mou        0     2002.0      NaN   
+642                    Daleks in Manhattan        0     2007.0      NaN   
+691                            Storm Watch        0     2014.0      NaN   
+727                  Gokukoku no Brynhildr        0     2014.0      NaN   
+164                       The History Boys        0     2006.0      NaN   
+893                           Guava Island        0     2019.0      NaN   
+927                                  Pilot        0     2014.0      NaN   
+462                                  Right        0     2016.0      NaN   
+1068               I Think We're Alone Now        0     2019.0      NaN   
+940                       Return to Sender        0     2004.0      NaN   
+610                              Chevalier        0     2015.0      NaN   
+1126                 Meet Me in Montenegro        0     2014.0      NaN   
+637                        Wonderful World        0     2009.0      NaN   
+385                         Alone with Her        0     2006.0      NaN   
+1014                         Teenage Angst        0     2008.0      NaN   
+1043                       The Misandrists        0     2017.0      NaN   
+1154                   This Is Not a Movie        0     2011.0      NaN   
+492                             Sugar Boxx        0     2009.0      NaN   
+922                       Return to Sender        0     2015.0      NaN   
+690                     Fifty Shades Freed        0     2018.0      NaN   
+677                            #JinnHunter        0     2019.0      NaN   
+1039                         Beiimaan Love        0     2016.0      NaN   
+1138               Money Hai Toh Honey Hai        0     2008.0      NaN   
+1208                                 Nasha        0     2013.0      NaN   
+1197                        Jacob's Ladder        0     2019.0      NaN   
+846                            Moscow Zero        0     2006.0      NaN   
+90                  Highlander: The Source        0     2007.0      NaN   
+
+      runtimeMinutes                       genres  averageRating  numVotes  \
+68              43.0   [Action, Adventure, Drama]            9.4      3820   
+1181            54.0     [Drama, Fantasy, Horror]            9.2      1536   
+326             42.0      [Crime, Drama, Mystery]            9.1      1859   
+71              58.0    [Drama, Fantasy, Romance]            9.0      1428   
+1234            57.0           [Adventure, Drama]            8.9      1753   
+1054            43.0     [Drama, Fantasy, Horror]            8.6      2495   
+1281            28.0     [Comedy, Drama, Romance]            8.7       396   
+151             42.0             [Drama, Western]            8.6       437   
+1344            40.0   [Adventure, Comedy, Drama]            8.3       812   
+357             56.0           [Adventure, Drama]            8.8       289   
+708             43.0       [Crime, Drama, Horror]            8.0      1077   
+605             48.0     [Crime, Drama, Thriller]            8.1       674   
+983             32.0              [Comedy, Drama]            8.5       275   
+1017            43.0       [Comedy, Crime, Drama]            8.0       525   
+73              43.0     [Comedy, Drama, Mystery]            8.1       405   
+625             43.0      [Crime, Drama, Mystery]            7.9       413   
+1272            46.0      [Crime, Drama, Mystery]            7.7       689   
+800             42.0     [Action, Drama, Mystery]            7.7       654   
+659             27.0              [Comedy, Drama]            7.8       410   
+1170            98.0      [Crime, Drama, Mystery]            7.7       538   
+1001            44.0       [Action, Crime, Drama]            7.7       501   
+977             51.0      [Crime, Drama, Fantasy]            7.5      1558   
+1096           101.0              [Comedy, Drama]            7.5      1541   
+910             44.0     [Drama, Horror, Mystery]            7.7       436   
+746             45.0      [Crime, Drama, Mystery]            7.6       620   
+299             59.0     [Crime, Drama, Thriller]            7.5       859   
+509             44.0       [Action, Crime, Drama]            7.6       501   
+897             44.0       [Action, Crime, Drama]            7.8       270   
+1090           118.0     [Comedy, Drama, Romance]            7.3      3906   
+109            100.0   [Adventure, Comedy, Drama]            7.2     61521   
+550             21.0               [Drama, Short]            7.2      2222   
+834            129.0       [Action, Crime, Drama]            7.1       960   
+600            113.0              [Drama, Family]            7.1       423   
+642             45.0   [Adventure, Drama, Family]            7.0      4982   
+691             43.0             [Drama, Romance]            7.0       309   
+727             22.0   [Action, Animation, Drama]            6.8       733   
+164            109.0     [Comedy, Drama, Romance]            6.8     19858   
+893             55.0       [Comedy, Drama, Music]            6.7      7935   
+927             44.0             [Drama, Romance]            6.6       403   
+462             42.0      [Crime, Drama, Mystery]            6.5       641   
+1068            43.0  [Adventure, Drama, Mystery]            6.3       563   
+940            109.0            [Drama, Thriller]            6.4      2342   
+610            105.0              [Comedy, Drama]            6.3      3890   
+1126            90.0     [Comedy, Drama, Romance]            5.8       258   
+637             89.0             [Drama, Romance]            6.1      2288   
+385             78.0     [Crime, Drama, Thriller]            6.0      3738   
+1014            64.0            [Drama, Thriller]            5.3       355   
+1043            91.0              [Comedy, Drama]            5.1       387   
+1154            99.0              [Comedy, Drama]            4.6       642   
+492             86.0               [Crime, Drama]            3.5       229   
+922             92.0            [Drama, Thriller]            5.1     11434   
+690            105.0   [Drama, Romance, Thriller]            4.5     50572   
+677             24.0     [Drama, Fantasy, Horror]            3.6       592   
+1039           120.0   [Drama, Romance, Thriller]            2.8       374   
+1138           138.0              [Comedy, Drama]            2.8       527   
+1208           122.0            [Drama, Thriller]            3.2      1132   
+1197            89.0     [Drama, Horror, Mystery]            3.4      2065   
+846             82.0      [Action, Drama, Horror]            3.0      1620   
+90              86.0   [Action, Adventure, Drama]            3.1      8855   
+
+         score  
+68    9.254624  
+1181  8.892450  
+326   8.850993  
+71    8.700045  
+1234  8.660784  
+1054  8.451165  
+1281  8.014679  
+151   7.991253  
+1344  7.976536  
+357   7.928908  
+708   7.794774  
+605   7.777823  
+983   7.741020  
+1017  7.644528  
+73    7.641127  
+625   7.518184  
+1272  7.482870  
+800   7.474263  
+659   7.452229  
+1170  7.440123  
+1001  7.426951  
+977   7.414087  
+1096  7.413262  
+910   7.400262  
+746   7.392196  
+299   7.358892  
+509   7.358321  
+897   7.354658  
+1090  7.273948  
+109   7.198626  
+550   7.165391  
+834   7.047918  
+600   7.005022  
+642   6.992511  
+691   6.927461  
+727   6.807042  
+164   6.800337  
+893   6.703635  
+927   6.683187  
+462   6.586752  
+1068  6.453124  
+940   6.438263  
+610   6.329443  
+1126  6.284136  
+637   6.166378  
+385   6.047889  
+1014  5.899785  
+1043  5.742978  
+1154  5.186193  
+492   5.164791  
+922   5.133960  
+690   4.510501  
+677   4.500821  
+1039  4.330305  
+1138  4.020601  
+1208  3.810708  
+1197  3.742360  
+846   3.474296  
+90    3.194020  
