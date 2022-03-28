@@ -1,5 +1,5 @@
 # Firza_Portfolio
-Example Data Science Portfolio using Python
+Example Data Portfolio using Python
 
 # Project 1 :  Project Machine Learning with Python Building Recommender System (DQLAB)
 - Created Weighted rating function for movie
