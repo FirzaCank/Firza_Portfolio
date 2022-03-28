@@ -1,0 +1,71 @@
+ knownForTitles                   cast_name      tconst titleType  \
+848       tt3040964  [Cristina Carrión Márquez]   tt3040964     movie   
+383       tt0286336          [Francisco Bretas]   tt0286336  tvSeries   
+1002      tt7222086          [Hiroki Matsukawa]   tt7222086  tvSeries   
+73        tt0075147             [Joaquín Parra]   tt0075147     movie   
+232       tt0119051            [Chris Kosloski]   tt0119051     movie   
+556      tt10068158          [Hiroki Matsukawa]  tt10068158     movie   
+9         tt0028657            [Bernard Loftus]   tt0028657     movie   
+191       tt0107875               [Simon Mayal]   tt0107875     movie   
+803       tt2356464               [Sina Müller]   tt2356464     movie   
+983       tt6270328                   [Jo Boag]   tt6270328  tvSeries   
+
+                                         primaryTitle  \
+848                                   The Jungle Book   
+383                      The Animals of Farthing Wood   
+1002                                    Made in Abyss   
+73                                   Robin and Marian   
+232                                          The Edge   
+556                     Made in Abyss: Journey's Dawn   
+9                               Boss of Lonely Valley   
+191                       The Princess and the Goblin   
+803                                           Ostwind   
+983   The Skinner Boys: Guardians of the Lost Secrets   
+
+                                        originalTitle  isAdult  startYear  \
+848                                   The Jungle Book        0     2016.0   
+383                      The Animals of Farthing Wood        0     1993.0   
+1002                                    Made in Abyss        0     2017.0   
+73                                   Robin and Marian        0     1976.0   
+232                                          The Edge        0     1997.0   
+556                 Made in Abyss: Tabidachi no Yoake        0     2019.0   
+9                               Boss of Lonely Valley        0     1937.0   
+191                       The Princess and the Goblin        0     1991.0   
+803                                           Ostwind        0     2013.0   
+983   The Skinner Boys: Guardians of the Lost Secrets        0     2014.0   
+
+      endYear  runtimeMinutes                       genres  averageRating  \
+848       NaN           106.0       Adventure,Drama,Family            7.4   
+383    1995.0            25.0    Adventure,Animation,Drama            8.3   
+1002      NaN           325.0    Adventure,Animation,Drama            8.4   
+73        NaN           106.0      Adventure,Drama,Romance            6.5   
+232       NaN           117.0       Action,Adventure,Drama            6.9   
+556       NaN           139.0  Adventure,Animation,Fantasy            7.4   
+9         NaN            60.0       Action,Adventure,Drama            6.2   
+191       NaN            82.0   Adventure,Animation,Comedy            6.8   
+803       NaN           101.0       Adventure,Drama,Family            6.8   
+983       NaN            23.0    Adventure,Animation,Drama            7.8   
+
+      numVotes                                      director_name  \
+848     250994                                      [Jon Favreau]   
+383       3057             [Elphin Lloyd-Jones, Philippe Leclerc]   
+1002      4577  [Masayuki Kojima, Hitoshi Haga, Shinya Iino, T...   
+73       10830                                   [Richard Lester]   
+232      65673                                     [Lee Tamahori]   
+556         81                                  [Masayuki Kojima]   
+9           41                                       [Ray Taylor]   
+191       2350                                     [József Gémes]   
+803       1350                                [Katja von Garnier]   
+983         12        [Pablo De La Torre, Eugene Linkov, Jo Boag]   
+
+                                            writer_name  
+848                     [Justin Marks, Rudyard Kipling]  
+383   [Valerie Georgeson, Colin Dann, Jenny McDade, ...  
+1002  [Akihito Tsukushi, Keigo Koyanagi, Hideyuki Ku...  
+73                                      [James Goldman]  
+232                                       [David Mamet]  
+556                                  [Akihito Tsukushi]  
+9                       [Frances Guihan, Forrest Brown]  
+191                     [Robin Lyons, George MacDonald]  
+803          [Kristina Magdalena Henn, Lea Schmidbauer]  
+983   [David Witt, John Derevlany, David Evans, Pete...  
