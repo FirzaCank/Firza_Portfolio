@@ -1,7 +1,7 @@
 # Firza_Portfolio
 Example Data Portfolio using Python
 
-# Project 1 :  Project Machine Learning with Python Building Recommender System (DQLAB)
+# [Project 1 :  Project Machine Learning with Python Building Recommender System (DQLAB)](https://github.com/FirzaCank/Firza_Portfolio/tree/main/Project%201)
 - Created Weighted rating function for movie
 - Created Simple User Prefer Recommender with adult category, start year, and genres parameters for movie
 
